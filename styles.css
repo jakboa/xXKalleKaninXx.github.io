@@ -1,1 +1,110 @@
+header{
+    height:100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
 
+
+header h1 {
+    text-align: right;
+    text-align: center;
+}
+
+nav {
+    position:fixed;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 2px 4px;
+    background-color:darkgray;
+    font-weight: bold;
+
+}
+
+nav li:hover {
+    background-color:aqua;
+    cursor:pointer;
+}
+
+
+main{
+    padding: 10px 10px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+.LinksAndButtons {
+    align-items: center;
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin: 5px;
+
+    font-family: "Oswald",sans-serif;
+}
+
+.LinksAndButtons a {
+    text-decoration: underline;
+    font-size: 18px;
+    padding-right: 10px;
+    color: #466995;
+    font-weight: 700;
+    cursor:crosshair; /*Apperently putting this in hover is bad?*/
+
+}
+.LinksAndButtons a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    color: #466995;
+    font-weight: 700;
+}
+/*Ekstra stuff you can do*/
+.LinksAndButtons a:active {
+    color: red;
+    font-weight: 1000;
+}
+.LinksAndButtons a:visited {
+    color: #466995;
+    font-weight: 300;
+}
+
+
+/*transition seems cool!*/
+
+/*Example button*/
+button {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  button:active {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+
+
+
+footer {
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+}
